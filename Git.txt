@@ -13,3 +13,5 @@ git reset (ID commit) --hard -> Regresa al commit especificado, elimiandi lo que
 git checkout (ID commit) (Nombre Archivo) -> Regresa al commit especificado el archivo especificado y manda a (stading los cambios)
 git checkout master (Nombre Archivo) -> Regresa los cambios a la rama master en el archivo especificado
 git commit -am "Comentario" -> Agrega el archivo tanto a memoria RAM (staging) como al repositorio (commit) (Es una combinacion de ambos comandos)
+git branch (Nombre nueva rama) -> Crear una rama ***ASEGURARSE QUE SE CREO EN EL HEAD (Punto que queremos copiar)
+git checkout (Nombre nueva rama) -> Moverse a la rama
