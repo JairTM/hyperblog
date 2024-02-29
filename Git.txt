@@ -15,3 +15,4 @@ git checkout master (Nombre Archivo) -> Regresa los cambios a la rama master en 
 git commit -am "Comentario" -> Agrega el archivo tanto a memoria RAM (staging) como al repositorio (commit) (Es una combinacion de ambos comandos)
 git branch (Nombre nueva rama) -> Crear una rama ***ASEGURARSE QUE SE CREO EN EL HEAD (Punto que queremos copiar)
 git checkout (Nombre nueva rama) -> Moverse a la rama
+git show -> Muestra el ultimo cambio que se hizo en la rama
