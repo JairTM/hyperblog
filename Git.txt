@@ -11,4 +11,4 @@ git diff (ID commit) (ID commit) -> Muestra la diferencia entre los commits que 
 git reset (ID commit) --soft -> Regresa al commit especificado, manteniendo lo que hay en (stading) "Memoria RAM"
 git reset (ID commit) --hard -> Regresa al commit especificado, elimiandi lo que hay en (stading) "Memoria RAM"
 git checkout (ID commit) (Nombre Archivo) -> Regresa al commit especificado el archivo especificado y manda a (stading los cambios)
-git checout master (Nombre Archivo) -> Regresa los cambios a la rama master en el archivo especificado
+git checkout master (Nombre Archivo) -> Regresa los cambios a la rama master en el archivo especificado
