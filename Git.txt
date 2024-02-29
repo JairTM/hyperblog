@@ -2,13 +2,14 @@ Git
 
 git init -> Inicia un repositorio
 git log (Nombre Archivo) -> Muestra las distintas versiones guardadas en el repositorio que tiene el archivo 
-git add (Nombre archivo) -> Agrega el archivo a la memoria RAM (stading)
-git add . -> Agrega todos los archivos a la memoria RAM (stading)
+git add (Nombre archivo) -> Agrega el archivo a la memoria RAM (staging)
+git add . -> Agrega todos los archivos a la memoria RAM (staging)
 git status -> Checa si hay algun cambio en el repositorio
 git commit -> Va a hacer una version pero pedira que se le inserte un comentario
 git commit -m "Comentario" -> Va a hacer una version con comentario
 git diff (ID commit) (ID commit) -> Muestra la diferencia entre los commits que se realizaron
-git reset (ID commit) --soft -> Regresa al commit especificado, manteniendo lo que hay en (stading) "Memoria RAM"
-git reset (ID commit) --hard -> Regresa al commit especificado, elimiandi lo que hay en (stading) "Memoria RAM"
+git reset (ID commit) --soft -> Regresa al commit especificado, manteniendo lo que hay en (staging) "Memoria RAM"
+git reset (ID commit) --hard -> Regresa al commit especificado, elimiandi lo que hay en (staging) "Memoria RAM"
 git checkout (ID commit) (Nombre Archivo) -> Regresa al commit especificado el archivo especificado y manda a (stading los cambios)
 git checkout master (Nombre Archivo) -> Regresa los cambios a la rama master en el archivo especificado
+git commit -am "Comentario" -> Agrega el archivo tanto a memoria RAM (staging) como al repositorio (commit) (Es una combinacion de ambos comandos)
