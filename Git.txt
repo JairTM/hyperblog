@@ -62,5 +62,7 @@ git show-ref --tags -> Muestra los tags con su commit correspondiente
 --Subir tags a GitHub ---
 git push origin --tags
 
+-- Eliminar tag ---
+git tag -d (Nombre tag) -> Elimina el tag especificado
 
 
