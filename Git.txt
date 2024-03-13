@@ -18,3 +18,15 @@ git checkout (Nombre nueva rama) -> Moverse a la rama
 git show -> Muestra el ultimo cambio que se hizo en la rama
 git branch -> Ver la lista de las ramas existente
 git merge (Nombre rama) -> Fusiona las ramas (master con la especificada)
+
+---CONFIGURACION DE USUARIO DE GIT ---
+
+git config --global user.email "giovannitatengo@hotmail.com" -> Cambiar el email del usuario
+git config --global user.name "Jair Molina" -> Cambiar el nombre del usuario
+
+---SSH GIT (Crear en directorio de usuario "Home")---
+
+ssh-keygen -t rsa -b 4096 -C "(correo electronico)" -> Crea la llave (Puedes poner contraseña a la llave)
+eval $(ssh-agent -s) -> Ver si esta activo el uso de llaves de ssh en el SO
+~ -> Atajo para escibir Ruta Home
+ssh-add ~/.ssh/id_rsa -> Agrega la llave privada al entorno
