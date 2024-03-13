@@ -64,5 +64,11 @@ git push origin --tags
 
 -- Eliminar tag ---
 git tag -d (Nombre tag) -> Elimina el tag especificado
+git push origin :refs/tags/(Nombre tag) -> Elimina el tag en el Github
 
+--- Mostrar ramas con sus historias ---
+git show-branch
+
+---Mostrar ramas en una forma más grafica ---
+gitk
 
