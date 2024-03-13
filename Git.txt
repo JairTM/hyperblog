@@ -35,6 +35,8 @@ ssh-add ~/.ssh/id_rsa -> Agrega la llave privada al entorno
 Ir a Usuario/Configuracion/SSH and GPG Keys
 Dar click en boton de "New SSH key" y pegar el contenido de la llave publica generada previamente por Git
 
+--Especificar rama con la que se esta trabjando (Cambiar de master a main) ---
+git branch -m main -> Estamos diciendo que la rama donde nos encontramos va a ser ahora la rama main
 --- Subir un repositorio de Git a Github ---
 git remote add origin (Link de repositorio de git de HTTPS)
 git push origin (nombre rama) -> Subir la rama especificada a Github
