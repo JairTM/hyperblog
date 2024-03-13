@@ -37,7 +37,14 @@ Dar click en boton de "New SSH key" y pegar el contenido de la llave publica gen
 
 --Especificar rama con la que se esta trabjando (Cambiar de master a main) ---
 git branch -m main -> Estamos diciendo que la rama donde nos encontramos va a ser ahora la rama main
+
 --- Subir un repositorio de Git a Github ---
 git remote add origin (Link de repositorio de git de HTTPS)
 git push origin (nombre rama) -> Subir la rama especificada a Github
+
+--- Traer lo que hay en Github ---
+git pull origin (nombre rama) -> Traer lo que hay en repositorio Github
+
+--- Forzar el traer la rama
+git pull origin main --allow-unrelated-histories
 
