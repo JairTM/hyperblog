@@ -30,3 +30,7 @@ ssh-keygen -t rsa -b 4096 -C "(correo electronico)" -> Crea la llave (Puedes pon
 eval $(ssh-agent -s) -> Ver si esta activo el uso de llaves de ssh en el SO
 ~ -> Atajo para escibir Ruta Home
 ssh-add ~/.ssh/id_rsa -> Agrega la llave privada al entorno
+
+--- GITHUB (Poner llave publica SSH) ---
+Ir a Usuario/Configuracion/SSH and GPG Keys
+Dar click en boton de "New SSH key" y pegar el contenido de la llave publica generada previamente por Git
