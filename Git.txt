@@ -45,6 +45,22 @@ git push origin (nombre rama) -> Subir la rama especificada a Github
 --- Traer lo que hay en Github ---
 git pull origin (nombre rama) -> Traer lo que hay en repositorio Github
 
---- Forzar el traer la rama
+--- Forzar el traer la rama ---
 git pull origin main --allow-unrelated-histories
+
+--- Mostrar visualmente ramas y commits que se han hecho ---
+git log --graph --decorate --online
+
+--Etiquetas de comandos ---
+alias (Nombre etiqueta)="(Comando a nombrar)"
+
+---Asignarle una etiqueta a un commit ---
+git tag -a (Nombre etiqueta) -m "(Comentario etiqueta)" (ID del commit) -> Asigna un tag a un commit especificado
+git tag -> Muestra los tags que hay creados
+git show-ref --tags -> Muestra los tags con su commit correspondiente
+
+--Subir tags a GitHub ---
+git push origin --tags
+
+
 
